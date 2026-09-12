@@ -3,23 +3,54 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lane Hustle</title>
+<title>PLS Studios</title>
 <style>
-  body { font: 16px/1.7 system-ui, sans-serif; color: #2b3140; background: #f7f6f2; display: grid; place-items: center; min-height: 100vh; margin: 0; }
-  .card { background: #fff; border: 1px solid #e7e2d4; border-radius: 18px; padding: 34px 30px; text-align: center; max-width: 420px; margin: 20px; }
-  h1 { font-size: 26px; margin: 0 0 6px; }
-  p { color: #8089a0; margin: 0 0 20px; }
-  a.btn { display: block; background: #ff7a3d; color: #fff; text-decoration: none; font-weight: 700; padding: 14px; border-radius: 14px; margin-bottom: 10px; }
+  body { font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #2b3140; background: #f7f6f2; display: grid; place-items: center; min-height: 100vh; margin: 0; }
+  .wrap { max-width: 460px; margin: 20px; }
+  h1.studio { font-size: 22px; letter-spacing: 2px; text-align: center; margin: 0 0 18px; color: #2b3140; }
+  .card { background: #fff; border: 1px solid #e7e2d4; border-radius: 18px; padding: 26px 26px 22px; margin-bottom: 16px; }
+  h2 { font-size: 21px; margin: 0 0 6px; }
+  p { color: #8089a0; margin: 0 0 16px; }
+  a.btn { display: block; background: #ff7a3d; color: #fff; text-decoration: none; font-weight: 700; padding: 13px; border-radius: 13px; margin-bottom: 8px; text-align: center; }
   a.btn.alt { background: #f6f3ea; color: #2b3140; border: 1px solid #e7e2d4; }
+  .legal { display: flex; gap: 8px; }
+  .legal a { flex: 1; }
+  footer { text-align: center; color: #8089a0; font-size: 14px; padding-bottom: 30px; }
 </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Lane Hustle</h1>
-    <p>A hyper-casual racing game by PLS Studios. Dodge traffic, grab coins, upgrade your ride across five wild worlds.</p>
-    <a class="btn" href="./lane-hustle/">Play in your browser</a>
-    <a class="btn alt" href="https://xtreme00wolf.github.io/lane-hustle-legal/privacy.html">Privacy Policy</a>
-    <a class="btn alt" href="https://xtreme00wolf.github.io/lane-hustle-legal/terms.html">Terms of Service</a>
+  <div class="wrap">
+    <h1 class="studio">PLS STUDIOS</h1>
+
+    <div class="card">
+      <h2>Lane Hustle</h2>
+      <p>A hyper-casual racing game. Dodge traffic, grab coins, upgrade your ride across five wild worlds.</p>
+      <a class="btn" href="./lane-hustle/">Play in your browser</a>
+      <div class="legal">
+        <a class="btn alt" href="https://xtreme00wolf.github.io/lane-hustle-legal/privacy.html">Privacy</a>
+        <a class="btn alt" href="https://xtreme00wolf.github.io/lane-hustle-legal/terms.html">Terms</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Abyss Angler</h2>
+      <p>Drop the hook, catch what rises, upgrade the line and go deeper than you should.</p>
+      <div class="legal">
+        <a class="btn alt" href="./abyss-angler/privacy.html">Privacy</a>
+        <a class="btn alt" href="./abyss-angler/terms.html">Terms</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Machine Gunner</h2>
+      <p>A retro run-and-gun. One hundred fronts across five alien lands, and a boss waiting at the end of every one.</p>
+      <div class="legal">
+        <a class="btn alt" href="./machine-gunner/privacy.html">Privacy</a>
+        <a class="btn alt" href="./machine-gunner/terms.html">Terms</a>
+      </div>
+    </div>
+
+    <footer>Contact: chawla208@gmail.com</footer>
   </div>
 </body>
 </html>
